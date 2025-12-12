@@ -1,0 +1,241 @@
+<!-- # Mini-Project-Portfolio
+A simple and modern mini project portfolio showcasing my skills, projects, and learning experience. Built with clean design and easy navigation for academic and personal use. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+            background: #080010;
+            color: #d5ccff;
+        }
+
+        /* NAVIGATION - GAMER STYLE */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background: #0a001a;
+            border-bottom: 2px solid #033867;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 0 20px #8a2bff44;
+        }
+
+        nav h1 {
+            color: #d6cbe2;
+            margin: 0;
+            letter-spacing: 3px;
+            text-shadow: 0 0 10px #f73726;
+            font-weight: 700;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #e0d5ff;
+            padding: 10px 18px;
+            border: 1px solid #208fc6;
+            border-radius: 6px;
+            transition: 0.3s;
+            background: #15002c;
+            box-shadow: 0 0 10px #8a2bff33 inset;
+        }
+
+        nav ul li a:hover {
+            background: #a238a2;
+            color: black;
+            box-shadow: 0 0 20px #8a2bff;
+        }
+
+        /* SECTION */
+        section {
+            padding: 60px 10%;
+            border-bottom: 1px solid #8a2bff33;
+        }
+
+        h2 {
+            color: #b7b0c1;
+            font-size: 30px;
+            margin-bottom: 20px;
+            border-left: 4px solid #b6710a;
+            padding-left: 10px;
+            text-shadow: 0 0 12px #740e0e;
+        }
+
+      
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            padding: 20px;
+            border: 1px solid #e98623;
+            border-radius: 10px;
+            background: #120022;
+            transition: 0.3s;
+            box-shadow: 0 0 10px #8a2bff44;
+        }
+
+        .card:hover {
+            transform: translateY(-6px) scale(1.02);
+            box-shadow: 0 0 25px #8a2bff;
+        }
+
+        
+        .contact-btn {
+            display: inline-block;
+            padding: 12px 25px;
+            color: black;
+            background: #3a7698;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 6px;
+            box-shadow: 0 0 18px #8a2bff;
+            transition: 0.3s;
+        }
+
+        .contact-btn:hover {
+            background: #d2b3ff;
+            box-shadow: 0 0 30px #b7a246;
+        }
+    </style>
+</head>
+
+<body>
+
+    
+    <nav>
+        <h1>Kaustubh</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#summary">Summary</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#description">Description</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- HOME -->
+    <section id="home">
+        <h3>Home</h3>
+        <h2>Hello, I’m Kaustubh Khadge</h2>
+        <p> Welcome to my portfolio!
+            I am dedicated to building clean, efficient, and user-friendly digital solutions. With a strong interest in
+            web development and modern technology, I aim to create meaningful and well-structured projects that reflect
+            both creativity and professionalism.</p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <h3>Skills</h3>
+<div class="skill-category">
+<h3>⚙️ Hardware & Electronics</h3>
+<ul>
+<li>Arduino Programming</li>
+<li>Ultrasonic & IR Sensors</li>
+<li>Basic Electronics & Circuit Design</li>
+<li>Microcontroller Interfacing</li>
+</ul>
+</div>
+
+
+<div class="skill-category">
+<h3>📊 Core Competencies</h3>
+<ul>
+<li>Logical Thinking & Problem Solving</li>
+<li>Clean Code Writing</li>
+<li>Version Control & Debugging</li>
+<li>Project Documentation</li>
+</ul>
+</div>
+
+
+<div class="skill-category">
+<h3>🤝 Soft Skills</h3>
+<ul>
+<li>Communication</li>
+<li>Team Collaboration</li>
+<li>Leadership & Time Management</li>
+<li>Quick Learning Ability</li>
+</ul>
+</div>
+</section>
+
+    <!-- EDUCATION -->
+    <section id="education">
+        <h3>Education</h3>
+        <p>B.E. in Electronics and Telecomunication Engineering
+            <hr> Sant Gadge Baba Amravati University (SGBAU)
+            <br> Amravati, Maharashtra<br> TIET College of Engineering and Technology,Darapur<br>2022-2026
+        </p>
+        </p>
+        <p>High School Diploma / SSC and HSC
+            <hr> Suryakant Jog Deepshikha Gurukul Sainik School, Chikhaldara<br>Amravati, Maharashtra<br>2018-2022
+        </p>
+    </section>
+
+    <!-- SUMMARY -->
+    <section id="summary">
+        <h2>Summary</h2>
+        <p>I am a passionate developer focused on building clean, modern, and functional digital experiences. My mission
+            is to create efficient solutions with a bold and tactical design approach. I am a frontend developer with a
+            strong interest in building clean, simple, and responsive websites. I enjoy creating user-friendly
+            interfaces using HTML, CSS, and JavaScript, and I’m constantly improving my skills by working on creative
+            projects. My goal is to build fast, modern websites that look good and perform even better.</p>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+
+            <div class="card">
+                <h3>Ultrasonic Blind Walking Stick</h3>
+                <p>An assistive device using ultrasonic sensors to detect obstacles and alert visually impaired users
+                    for safe navigation.</p>
+            </div>
+
+            <div class="card">
+                <h3>Expense Tracker</h3>
+                <p>A simple web application to track daily expenses and calculate total spending using LocalStorage.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- DESCRIPTION -->
+    <section id="description">
+        <h2>Description</h2>
+        <p>This portfolio represents my skills, creativity, and approach toward modern UI development.I am a disciplined
+            and detail-oriented ETC Engineering student with a strong foundation in web development and
+            programming. I focus on building reliable, clean, and user-centered digital solutions. My work reflects
+            professionalism, consistency, and a commitment to continuous learning and improvement..</p>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you want to collaborate or hire me, feel free to reach out.</p>
+        <a class="contact-btn" href="mailto:kaustubhak46@gmail.com">Contact Me</a>
+    </section>
+
+</body>
+
+</html>
